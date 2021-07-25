@@ -6,7 +6,6 @@
   - [Links](#links)
   - [Built with](#built-with-React)
 
-
 ## Overview
 
 ### The challenge
@@ -23,11 +22,10 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kedareshubham11/IP-Address_Tracker)
-- Live Site URL: [Add live site URL here](https://kd-ip-address-tracker.herokuapp.com/)
+- Solution URL: [IP-Address-Tracker-code](https://github.com/kedareshubham11/IP-Address_Tracker)
+- Live Site URL: [IP-Address-Tracker-live](https://kd-ip-address-tracker.herokuapp.com/)
 
 ## My process
 
@@ -38,7 +36,6 @@ Users should be able to:
 - CSS Grid
 - antd
 - [React](https://reactjs.org/) - JS library
-[IP Geolocation API by IPify](https://geo.ipify.org/)
-[LeafletJS](https://leafletjs.com/)
-[React-leaflet](https://react-leaflet.js.org/)
-
+  [IP Geolocation API by IPify](https://geo.ipify.org/)
+  [LeafletJS](https://leafletjs.com/)
+  [React-leaflet](https://react-leaflet.js.org/)
