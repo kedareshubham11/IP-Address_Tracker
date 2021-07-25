@@ -30,14 +30,13 @@ Users should be able to:
 - Solution URL: [IP-Address-Tracker-code](https://github.com/kedareshubham11/IP-Address_Tracker)
 - Live Site URL: [IP-Address-Tracker-live](https://kd-ip-address-tracker.herokuapp.com/)
 
-## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
-- CSS Grid
-- antd
+- CSS Flexbox
+- antd Desings
 - [React](https://reactjs.org/) - JS library
   [IP Geolocation API by IPify](https://geo.ipify.org/)
   [LeafletJS](https://leafletjs.com/)
