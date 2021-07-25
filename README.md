@@ -21,6 +21,9 @@ Users should be able to:
 ### Screenshot
 
 ![Login Page](./Screenshots/login.png)
+![desktop](./Screenshots/desktop.png)
+![desktop](./Screenshots/custom-ip.png)
+![mobile](./Screenshots/mobile.png)
 
 ### Links
 
