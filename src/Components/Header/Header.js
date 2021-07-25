@@ -6,8 +6,7 @@ import axios from "axios";
 import baseUrl from "../../api/api";
 import { notification } from "antd";
 
-function Header({ loc, setisLoggedIn }) {
-  const [location, setLocation] = useState(loc);
+function Header({ location, setisLoggedIn, setLocation }) {
   const [ip, setIp] = useState("");
 
   const logout = () => {
@@ -15,7 +14,7 @@ function Header({ loc, setisLoggedIn }) {
   };
 
   const getLocationByIP = async () => {
-    const data = await axios(`${baseUrl}${ip}`)
+    await axios(`${baseUrl}${ip}`)
       .then((data) => {
         if (data.data.ip) {
           setLocation(data.data);
@@ -34,10 +33,6 @@ function Header({ loc, setisLoggedIn }) {
       });
   };
 
-  useEffect(() => {
-    setLocation(loc);
-    console.log("in header", loc, location);
-  }, [loc]);
   return (
     <div className="header">
       <div className="logout" onClick={() => logout()}>

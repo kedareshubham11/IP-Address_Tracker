@@ -29,7 +29,11 @@ function App() {
         <Login setisLoggedIn={setisLoggedIn} />
       ) : (
         <>
-          <Header loc={location} setisLoggedIn={setisLoggedIn} />
+          <Header
+            location={location}
+            setisLoggedIn={setisLoggedIn}
+            setLocation={setLocation}
+          />
           <Map location={location} />
         </>
       )}

@@ -3,6 +3,7 @@ import L from "leaflet";
 import MarkIcon from "../../assets/images/icon-location.svg";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import { useEffect, useState } from "react";
+import SetViewOnClick from "./SetMapViewOnChange";
 
 const markerIcon = L.icon({
   iconUrl: MarkIcon,
@@ -11,7 +12,6 @@ const markerIcon = L.icon({
 
 function Map({ location }) {
   const [position, setPosition] = useState([18.64813, 72.87579]);
-  const [map, setMap] = useState(null);
 
   useEffect(() => {
     console.log("in map", location);
@@ -27,7 +27,6 @@ function Map({ location }) {
         zoom={15}
         scrollWheelZoom={false}
         className="map"
-        whenCreated={setMap}
       >
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -38,6 +37,7 @@ function Map({ location }) {
             A pretty CSS3 popup. <br /> Easily customizable.
           </Popup>
         </Marker>
+        <SetViewOnClick pos={position} />
       </MapContainer>
     </>
   );
