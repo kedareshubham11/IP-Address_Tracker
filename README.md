@@ -22,7 +22,7 @@ Users should be able to:
 
 ![Login Page](./Screenshots/login.png)
 ![desktop](./Screenshots/desktop.png)
-![desktop](./Screenshots/custom-ip.png)
+![custom-ip](./Screenshots/cutom-ip.PNG)
 ![mobile](./Screenshots/mobile.png)
 
 ### Links
