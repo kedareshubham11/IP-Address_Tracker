@@ -41,3 +41,4 @@ Users should be able to:
 - [IP Geolocation API by IPify](https://geo.ipify.org/)
 - [LeafletJS](https://leafletjs.com/)
 - [React-leaflet](https://react-leaflet.js.org/)
+- [Sawo-Labs-Authentication-Passwordless Login](https://sawolabs.com/)
