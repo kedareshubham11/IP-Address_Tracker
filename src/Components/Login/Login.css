@@ -1,0 +1,70 @@
+h2 {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+h1 {
+  font-weight: 500;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  flex: 0.7;
+  margin: 40px;
+}
+
+.leftContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid gray;
+  padding: 10px;
+}
+.rightContainer {
+  margin: 20px 10px 0 40px;
+}
+.rightContainer li {
+  color: hsl(0, 0%, 17%);
+}
+
+.login-ui {
+  padding: 10px;
+}
+
+#sawo-container {
+  height: 230px;
+  width: 400px;
+  max-width: 95%;
+}
+
+.logout {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+@media screen and (max-width: 750px) {
+  .login-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .rightContainer h3 {
+    margin-top: 20px;
+  }
+  #sawo-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .login-ui {
+    padding: 0;
+  }
+
+  .login-container {
+    padding: 0;
+  }
+}

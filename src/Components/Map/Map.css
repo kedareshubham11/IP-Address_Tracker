@@ -1,0 +1,6 @@
+.map {
+  height: 63vh;
+  max-height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
