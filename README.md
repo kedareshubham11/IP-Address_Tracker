@@ -37,7 +37,7 @@ Users should be able to:
 - CSS custom properties
 - CSS Flexbox
 - antd Desings
-- [React](https://reactjs.org/) - JS library
-  [IP Geolocation API by IPify](https://geo.ipify.org/)
-  [LeafletJS](https://leafletjs.com/)
-  [React-leaflet](https://react-leaflet.js.org/)
+- [React](https://reactjs.org/)
+- [IP Geolocation API by IPify](https://geo.ipify.org/)
+- [LeafletJS](https://leafletjs.com/)
+- [React-leaflet](https://react-leaflet.js.org/)
